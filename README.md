@@ -1,14 +1,15 @@
 # Covid Data Process
 ## File Structure
+```
 .
 ├── 1_Gowalla
-│   ├── 1_user_center.py
 │   ├── graph_1.py
-│   └── Process_gowalla.ipynb
+│   ├── Process_gowalla.ipynb
+│   └── user_center_1.py
 ├── 2_Foursquare
-│   ├── 2_user_center.py
 │   ├── graph_2.py
-│   └── Process_foursquare.ipynb
+│   ├── Process_foursquare.ipynb
+│   └── user_center_2.py
 ├── 3_Brightkite
 │   ├── 3_user_center.py
 │   ├── graph_3.py
@@ -27,5 +28,10 @@
     ├── Process_TKY.ipynb
     ├── user_center_TKY.py
     └── user_user_distance_TKY.py
+```
 
 ## File Description
+- `graph_{dataset_name}.py` : Generate `graph_{dataset_name}.txt`
+- `user_center_{dataset_name}.py` : Generate `user_center_{dataset_name}.txt`
+- `user_user_distance_{dataset_name}.py` : Generate `user_user_distance_{dataset_name}.txt`
+- `Process_{dataset_name}.ipynb` : jupyter version 
