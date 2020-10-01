@@ -34,4 +34,10 @@
 - `graph_{dataset_name}.py` : Generate `graph_{dataset_name}.txt`
 - `user_center_{dataset_name}.py` : Generate `user_center_{dataset_name}.txt`
 - `user_user_distance_{dataset_name}.py` : Generate `user_user_distance_{dataset_name}.txt`
-- `Process_{dataset_name}.ipynb` : jupyter version 
+- `Process_{dataset_name}.ipynb` : jupyter version
+
+## Notice
+- File Generate Order:
+    - `user_user_distance_{dataset_name}.py`
+    - `user_center_{dataset_name}.py`
+    - `graph_{dataset_name}.py`
