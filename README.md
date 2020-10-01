@@ -38,6 +38,13 @@
 
 ## .py File Location
 - Put the .py file in the corresponding `{dataset_name}` folder
+    - rename_folder <-> original_folder
+    - `1_Gowalla` <-> `(大) Gowalla (not SNAP)`
+    - `2_Foursquare` <-> `(中) Foursquare (LBSN2vec++)`
+    - `3_Brightkite` <-> `(小) Brightkite`
+    - `4_HaslemereNetwork` <-> `(最小) Haslemere network`
+    - `NYC` <-> `dataset_tsmc2014`
+    - `TKY` <-> `dataset_tsmc2014`
 
 ## Notice
 - File Generate Order:
