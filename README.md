@@ -37,7 +37,7 @@
 - `Process_{dataset_name}.ipynb` : jupyter version
 
 ## .py File Location
-- Put the file in the corresponding `dataset_name` folder
+- Put the .py file in the corresponding `{dataset_name}` folder
 
 ## Notice
 - File Generate Order:
