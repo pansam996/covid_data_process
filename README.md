@@ -36,6 +36,9 @@
 - `user_user_distance_{dataset_name}.py` : Generate `user_user_distance_{dataset_name}.txt`
 - `Process_{dataset_name}.ipynb` : jupyter version
 
+## .py File Location
+- Put the file in the corresponding `dataset_name` folder
+
 ## Notice
 - File Generate Order:
     - `user_user_distance_{dataset_name}.py`
