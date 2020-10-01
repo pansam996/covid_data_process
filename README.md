@@ -41,6 +41,6 @@
 
 ## Notice
 - File Generate Order:
-    - `user_user_distance_{dataset_name}.py`
-    - `user_center_{dataset_name}.py`
-    - `graph_{dataset_name}.py`
+    1. `user_user_distance_{dataset_name}.py`
+    2. `user_center_{dataset_name}.py`
+    3. `graph_{dataset_name}.py`
