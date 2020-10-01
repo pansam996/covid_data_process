@@ -84,7 +84,7 @@ with open('./graph_3.txt','a') as f:
 f.close()
 
 #### Calculate the max radius
-user_center_data = pd.read_csv('./3_user_center.txt',header=None,sep=',')
+user_center_data = pd.read_csv('./user_center_3.txt',header=None,sep=',')
 user_x = np.array(user_center_data[:][1])
 user_y = np.array(user_center_data[:][2])
 #### find the farest x_value on +x axis and -x axis

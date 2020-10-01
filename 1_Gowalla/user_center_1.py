@@ -72,7 +72,7 @@ for _id in check_in_id:
         user_center[_id] = (x,y)
 
 # save the user center
-with open('./1_user_center.txt' ,'w') as f:
+with open('./user_center_1.txt' ,'w') as f:
     for i in all_node:
         f.write('{},{},{}\n'.format(i,round(user_center[i][0],4),round(user_center[i][1],4)))
 f.close()

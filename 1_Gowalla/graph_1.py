@@ -84,7 +84,7 @@ with open('./graph_1.txt','a') as f:
 f.close()
 
 #### Calculate the max radius
-user_center_data = pd.read_csv('./1_user_center.txt',header=None,sep=',')
+user_center_data = pd.read_csv('./user_center_1.txt',header=None,sep=',')
 user_x = np.array(user_center_data[:][1])
 user_y = np.array(user_center_data[:][2])
 #### find the farest x_value on +x axis and -x axis
@@ -102,7 +102,7 @@ print('max radius : ',max_radius)
 
 
 ##### group
-with open('./1_Gowalla(not SNAP)/graph_gowalla.txt','a') as f:
+with open('./graph_1.txt','a') as f:
     for d in range(day):
         ## random radius by "normal distrubtion"
         radius = np.random.normal(max_radius,scale=1000000,size = groups)
